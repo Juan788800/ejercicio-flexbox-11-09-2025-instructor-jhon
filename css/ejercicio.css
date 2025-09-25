@@ -25,4 +25,6 @@ body{
     border: solid 1px #999;
     font-size: 1.2rem;
     padding: 1rem;
+    text-align: center;
+    color: white;
 }
