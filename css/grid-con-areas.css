@@ -1,0 +1,118 @@
+@import url(ejercicio.css);
+
+.grid-con-areas{
+    display: grid;
+    grid-template-rows: repeat(20, 1fr);
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-areas: 
+    
+    " . . . . . . . . . . . . . . . . . . . .  "
+    " . . . . . . . . . . . . . . . . . . . .  "
+    " . . . . . . . . . . . . . . . . . . . .  "
+    " . . . . . . . . . . . . . . . . . . . .  "
+    ". . header header header . . . . . . . . . . formulario formulario formulario . ."
+    ". . header header header . . . . . . . . . . formulario formulario formulario . ."
+    ". . header header header . . . . . . . . . . formulario formulario formulario . ."
+    " . . . . . . . . . . . . . . . . . . . .  "
+    " . . . . . . . . . . . . . . . . . . . .  "
+    " . . . . . . . . . Azul Azul . . . . . . . . .  "
+    " . . . . . . . . . Azul Azul . . . . . . . . .  "
+    " . . . . . . . . . . . . . . . . . . . .  "
+    " . . rojo . . . . . . . . . . . . . . verde . .  "
+    " . . . rojo2 . . . . . . . . . . . . verde2 . . .  "
+    " . . . . rojo3  . . . . . . . . . . verde3 . . . .  "
+    " . . . . .  rojo4 . . . . . . . . verde4 . . . . .  "
+    " . . . . .  . rojo5 . . . . . . verde5 . . . . . .  "
+    " . . . . .  . . rojo6 . . . . verde6 . . . . . . .  "
+    " . . . . .  . . . rojo7 rojo7 rojo7 rojo7 . . . . . . . .  "
+    ;
+    
+}
+
+.header{
+    grid-area: header;
+    background-color: #fff;
+}
+
+.negro{
+    grid-area: negro;
+    background-color: #000;
+}
+
+.negro1{
+    grid-area: negro1;
+    background-color: #000;
+}
+
+.formulario{
+    grid-area: formulario;
+    background-color: #fff;
+}
+
+
+.Azul{
+    grid-area: Azul;
+    background-color:#ec1c1c;
+}
+
+.rojo{
+    grid-area: rojo;
+    background-color: #ec1c1c;
+}
+.rojo2{
+    grid-area: rojo2;
+    background-color: #ec1c1c;
+}
+.rojo3{
+    grid-area: rojo3;
+    background-color: #ec1c1c;
+}
+.rojo4{
+    grid-area: rojo4;
+    background-color: #ec1c1c;
+}
+
+.verde{
+    grid-area: verde;
+    background-color:#ec1c1c;
+}
+.verde2{
+    grid-area: verde2;
+    background-color:#ec1c1c;
+}
+.verde3{
+    grid-area: verde3;
+    background-color:#ec1c1c;
+}
+.verde4{
+    grid-area: verde4;
+    background-color:#ec1c1c;
+}
+.violeta{
+    grid-area: violeta;
+    background-color: #ce1cec;
+}
+
+.verde5{
+    grid-area: verde5;
+    background-color: #ec1c1c;
+}
+
+.rojo5{
+    grid-area: rojo5;
+    background-color:#ec1c1c;
+}
+.verde6{
+    grid-area: verde6;
+    background-color:#ec1c1c;
+}
+
+.rojo6{
+    grid-area: rojo6;
+    background-color: #ec1c1c;
+}
+
+.rojo7{
+    grid-area: rojo7;
+    background-color: #ec1c1c;
+}

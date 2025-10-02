@@ -1,0 +1,36 @@
+@import url(ejercicio.css);
+
+
+.ejercicio1-practica{
+    display: grid;
+    grid-template-columns: [linea-column-1] 1fr [linea-column-2] 1fr [linea-column-3] 1fr [linea-column-4] 1fr;
+    grid-template-rows: [linea-row-1] 1fr [linea-row-2] 1fr [linea-row-3] 1fr [linea-row-4] 1fr ;
+    
+}
+
+.item:nth-child(1){
+    background-color: red;
+    grid-row: linea-row-1 / linea-row-3;
+    grid-column: linea-column-1 / linea-column-3;
+}
+.item:nth-child(2){
+    background-color: rgb(23, 133, 91);
+    grid-row: linea-row-1 / linea-row-3;
+    grid-column: linea-column-3 / linea-column-5;
+}
+.item:nth-child(3){
+    background-color: rgb(19, 37, 190);
+    grid-row: linea-row-3 / linea-row-5;
+    grid-column: linea-column-1 / linea-column-3;
+}
+.item:nth-child(4){
+    background-color: rgb(199, 156, 17);
+    grid-row: linea-row-3 / linea-row-5;
+    grid-column: linea-column-3 / linea-column-5;
+}
+
+.item:nth-child(5){
+    background-color: rgb(17, 193, 199);
+    grid-row: linea-row-2 / linea-row-4;
+    grid-column: linea-column-2 / linea-column-4;
+}

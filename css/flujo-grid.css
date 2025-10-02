@@ -1,0 +1,14 @@
+@import url(ejercicio.css);
+
+
+.grid-flujo{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3, 150px);
+
+    /* con el auto flow se invierte el orden de los elementos  de arriba hacia abajo*/
+    grid-auto-flow: row; /* fila por defecto */
+    grid-auto-rows: 100px;
+    grid-auto-flow: column;
+    grid-auto-columns: 450px;
+}

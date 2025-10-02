@@ -1,0 +1,16 @@
+@import url(ejercicio.css);
+
+.grid-flujo-denso{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 200px);
+    grid-auto-flow: row;
+    grid-auto-rows: 100px;
+    
+}
+
+.item:nth-child(9){
+    background-color: red;
+    grid-row: span 3;
+    grid-column: span 3;
+}

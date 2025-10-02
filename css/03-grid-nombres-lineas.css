@@ -1,0 +1,25 @@
+@import url(ejercicio.css);
+
+.grid-con-nombres-lineas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    grid-template-columns: [linea-column-1] 1fr [linea-column-2] 1fr [linea-column-3] 1fr [linea-column-4] 1fr [linea-column-5] 1fr;
+    grid-template-rows: [linea-row-1] 1fr [linea-row-2] 1fr [linea-row-3] 1fr [linea-row-4] 1fr [linea-row-5] 1fr [linea-row-6] 1fr;
+}
+/* forma para colorear una celda*/
+.item:nth-child(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    background-color: red;
+    grid-row: linea-row-1 / linea-row-5;
+    grid-column:  linea-column-2 / linea-column-4;
+}
+.item:nth-child(6){
+    background-color: hotpink;
+    grid-column: linea-column-4 / linea-column-5;
+}
