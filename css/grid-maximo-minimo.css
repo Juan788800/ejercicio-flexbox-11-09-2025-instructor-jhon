@@ -1,0 +1,9 @@
+@import url(ejercicio.css);
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, 200px));
+    grid-template-columns: repeat(4, minmax(min-content, 200px));
+    grid-template-columns: repeat(4, minmax( max-content, 100px));
+}

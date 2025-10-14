@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.contenedor{
+    max-width: 1600px;
+    margin: 0   auto;
+}
+.logo{
+    width: 120px;
+}
+
+.navegacion{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.menu-navegacion{
+    display: flex;
+    gap: 8px;
+}

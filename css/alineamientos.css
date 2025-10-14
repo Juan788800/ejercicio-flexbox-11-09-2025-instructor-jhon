@@ -1,0 +1,23 @@
+@import url(ejercicio.css);
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3 , 200px);
+    grid-template-rows: repeat(2, 200px);
+    justify-items: stretch;
+    justify-items: start;
+    justify-items: end;
+    justify-items: center;
+    align-items: stretch;
+    align-items: start;
+    align-items: end;
+    align-items: center;
+}
+.item:nth-child(2){
+    /* esto anula el align items y justify items*/
+    align-self: flex-start;
+    justify-self: flex-end;
+}
+
+
